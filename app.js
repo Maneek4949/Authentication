@@ -7,7 +7,7 @@ import encrypt from "mongoose-encryption"
 
 const app = express();
 const port = 3000;
-const uri = "mongodb+srv://manojprajapati1208:bDQQsPiu1y3nPm08@cluster0.uzvvczo.mongodb.net/?retryWrites=true&w=majority";
+const uri = process.env.URI;
 
 
 
